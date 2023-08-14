@@ -42,7 +42,7 @@ jobs:
       - name: Install Angular CLI
         run: npm install -g @angular/cli
       - name: Build Angular App
-        run: ng build --prod
+        run: ng build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
